@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcg"
+    tools:context=".LoanActivity">
+
+    <TextView
+        android:id="@+id/clothTitle"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="7dp"
+        android:textStyle="bold"
+        android:text="Loan Activity"
+        android:textColor="#016A5E"
+        android:textSize="45sp" />
+
+    <ImageView
+        android:id="@+id/clothImage"
+        android:layout_width="320dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/loans" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="255dp"
+        android:background="@drawable/white_box"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+
+        <Button
+            android:id="@+id/newloan_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/lavender"
+            android:text="  New Loan"
+            android:textColor="#131315"
+            android:textFontWeight="500"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:fontFamily="@font/poppins_semibold"
+            app:cornerRadius="20dp"
+            android:background="@color/cardview_light_background"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/loanrendered_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/lavender"
+            android:layout_marginTop="10dp"
+            android:text="  Loans Rendered"
+            android:textColor="#131313"
+            android:textFontWeight="500"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:fontFamily="@font/poppins_semibold"
+            app:cornerRadius="20dp"
+            android:background="@color/cardview_light_background"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/loanstatus_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/lavender"
+            android:text="  Loans Status"
+            android:textFontWeight="500"
+            android:textAlignment="center"
+            android:textColor="#111112"
+            android:textSize="25sp"
+            android:background="@color/cardview_light_background"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_semibold"
+            app:cornerRadius="20dp"
+            android:gravity="center_horizontal" />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
